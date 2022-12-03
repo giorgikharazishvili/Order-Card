@@ -68,11 +68,6 @@ body {
     color: #382AE1;
 }
 
-#div-annual-total {
-    /* position: relative; */
-
-}
-
 #span-annual {
     color: #07079a;
     font-size: 1.23rem;
@@ -96,7 +91,12 @@ body {
     background: none;
     border: none;
     text-decoration: underline;
+}
 
+#button-change:hover {
+    color: #766CF1;
+    text-decoration: none;
+    cursor: all-scroll;
 }
 
 .button-proceed {
@@ -112,10 +112,20 @@ body {
     border-radius: 11px;
 }
 
+.button-proceed:hover {
+    cursor: pointer;
+    background-color: #766CF1;;
+}
+
 .button-cancel {
     font-weight: 900;
     font-size: 15px;
     color: #717FA6;
     background: none;
     border: none;
+}
+
+.button-cancel:hover {
+    color: #1F2E55;
+    cursor: crosshair;
 }
